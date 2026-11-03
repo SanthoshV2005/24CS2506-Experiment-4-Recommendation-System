@@ -1,0 +1,21 @@
+PERSONALIZED RECOMMENDATION SYSTEM - OUTPUT REPORT
+===========================================================================
+User Name        : David Miller
+Age              : 22
+Background       : Computer Science
+Interests        : AI, Cloud, Python
+Skill Level      : Beginner
+Target Goal      : Build AI
+Category         : Courses
+===========================================================================
+
+RANKED RECOMMENDATIONS
+---------------------------------------------------------------------------
+Rank  | Suitability | Recommendation & Reason
+---------------------------------------------------------------------------
+1     | 90%        | Test Course 1
+      |             | Reason: Test Reason 1
+---------------------------------------------------------------------------
+2     | 85%        | Test Course 2
+      |             | Reason: Test Reason 2
+---------------------------------------------------------------------------

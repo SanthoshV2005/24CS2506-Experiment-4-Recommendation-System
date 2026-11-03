@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+profile_state.json
+recommendations_state.json
+*.log
+.DS_Store
