@@ -5,7 +5,6 @@
 **Register Number:** URK23CS1003  
 **Faculty-in-Charge:** Dr. C. Priyadharsini  
 **Date of Experiment:** 14/10/2026  
-**Practical Exam Date:** 11/11/2026  
 
 ---
 
