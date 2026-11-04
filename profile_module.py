@@ -9,13 +9,13 @@ def collect_profile(interactive: bool = True, prefill: dict = None) -> dict:
     """Collect user profile attributes."""
     if not interactive and prefill:
         profile = {
-            "name": prefill.get("name", "David Miller").strip(),
+            "name": prefill.get("name", "Emily Watson").strip(),
             "age": int(prefill.get("age", 22)),
-            "background": prefill.get("background", "Computer Science & Engineering").strip(),
-            "interests": prefill.get("interests", "Artificial Intelligence, Python, Cloud Computing").strip(),
-            "skill_level": prefill.get("skill_level", "Beginner").strip(),
-            "category": prefill.get("category", "Online Courses & Projects").strip(),
-            "goal": prefill.get("goal", "Build End-to-End AI Applications").strip(),
+            "background": prefill.get("background", "Computer Science Student").strip(),
+            "interests": prefill.get("interests", "Machine Learning, Cloud Computing").strip(),
+            "skill_level": prefill.get("skill_level", "Intermediate").strip(),
+            "category": prefill.get("category", "Courses").strip(),
+            "goal": prefill.get("goal", "Become a Machine Learning Engineer").strip(),
             "count": max(1, min(10, int(prefill.get("count", 5))))
         }
         save_profile(profile)
@@ -110,3 +110,4 @@ def analyse_preferences(profile: dict = None, verbose: bool = True) -> dict:
         print(DASH)
 
     return analysis
+

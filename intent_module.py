@@ -67,3 +67,4 @@ def detect_intent(query: str, verbose: bool = True) -> str:
         print(utils.DASH)
 
     return intent
+

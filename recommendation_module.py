@@ -86,3 +86,4 @@ def display(items: list):
         print(f"      Suitability Score : {item['score']}%")
         print(f"      Reason            : {item['reason']}")
         print(utils.DASH)
+

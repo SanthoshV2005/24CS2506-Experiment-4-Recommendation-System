@@ -69,13 +69,13 @@ def load_profile() -> dict:
         except Exception:
             pass
     return {
-        "name": "David Miller",
+        "name": "Emily Watson",
         "age": 22,
-        "background": "Computer Science & Engineering",
-        "interests": "Artificial Intelligence, Python, Cloud Computing",
-        "skill_level": "Beginner",
-        "category": "Online Courses & Projects",
-        "goal": "Build End-to-End AI Applications",
+        "background": "Computer Science Student",
+        "interests": "Machine Learning, Cloud Computing",
+        "skill_level": "Intermediate",
+        "category": "Courses",
+        "goal": "Become a Machine Learning Engineer",
         "count": 5
     }
 
@@ -131,3 +131,4 @@ def save_recommendations_file(profile: dict, items: list, verbose: bool = True) 
         print(DASH)
 
     return REC_FILE
+

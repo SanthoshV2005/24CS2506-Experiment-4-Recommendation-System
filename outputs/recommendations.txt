@@ -1,21 +1,52 @@
 PERSONALIZED RECOMMENDATION SYSTEM - OUTPUT REPORT
 ===========================================================================
-User Name        : David Miller
+User Name        : Emily Watson
 Age              : 22
-Background       : Computer Science
-Interests        : AI, Cloud, Python
-Skill Level      : Beginner
-Target Goal      : Build AI
+Background       : Computer Science Student
+Interests        : Machine Learning, Cloud Computing
+Skill Level      : Intermediate
+Target Goal      : Become a Machine Learning Engineer
 Category         : Courses
 ===========================================================================
 
-RANKED RECOMMENDATIONS
+PRIMARY & SECONDARY PREFERENCE CONSTRAINTS
+---------------------------------------------------------------------------
+Primary Interest   : Machine Learning
+Secondary Interest : Cloud Computing
+Complexity Level   : Intermediate
+Goal Alignment     : Accelerated practical workflows for ML engineering roles
+
+RANKED RECOMMENDATIONS (DESCENDING SUITABILITY)
 ---------------------------------------------------------------------------
 Rank  | Suitability | Recommendation & Reason
 ---------------------------------------------------------------------------
-1     | 90%        | Test Course 1
-      |             | Reason: Test Reason 1
+1     | 95%         | Deep Learning Specialization (Coursera / DeepLearning.AI)
+      |             | Reason: Comprehensive coverage of neural architectures matching intermediate ML competencies.
 ---------------------------------------------------------------------------
-2     | 85%        | Test Course 2
-      |             | Reason: Test Reason 2
+2     | 92%         | AWS Certified Machine Learning - Specialty Prep
+      |             | Reason: Bridges model training with cloud deployment infrastructure directly aligned with goals.
 ---------------------------------------------------------------------------
+3     | 88%         | Machine Learning Engineering for Production (MLOps)
+      |             | Reason: Essential production pipelining, CI/CD, and monitoring for professional ML engineers.
+---------------------------------------------------------------------------
+4     | 85%         | Full Stack Deep Learning
+      |             | Reason: Hands-on project integration from data engineering to cloud API deployment.
+---------------------------------------------------------------------------
+5     | 82%         | Mathematics for Machine Learning
+      |             | Reason: Deepens theoretical intuition in linear algebra and multivariate calculus.
+---------------------------------------------------------------------------
+
+RECOMMENDATION EXPLANATIONS
+---------------------------------------------------------------------------
+1. Deep Learning Specialization:
+   Matches Emily's intermediate Python skills and provides structured depth in convolutional and sequence models.
+2. AWS Machine Learning Specialty:
+   Directly satisfies the secondary interest in Cloud Computing, teaching SageMaker and scalable deployment.
+3. MLOps Specialization:
+   Equips Emily with production-grade engineering practices required for industry Machine Learning Engineer roles.
+4. Full Stack Deep Learning:
+   Bridges frontend/backend services with deployed cloud models, enabling complete application development.
+5. Mathematics for ML:
+   Reinforces algorithmic fundamentals for optimizing neural networks and understanding loss landscapes.
+===========================================================================
+Report persisted successfully to outputs/recommendations.txt

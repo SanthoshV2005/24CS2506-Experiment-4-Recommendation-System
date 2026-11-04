@@ -38,22 +38,22 @@ class TestExp4RecommendationSystem(unittest.TestCase):
     def test_01_profile_validation(self):
         """Test profile collection and bounds clamping."""
         prof = profile_module.collect_profile(interactive=False, prefill={
-            "name": "David Miller",
+            "name": "Emily Watson",
             "age": 22,
-            "background": "Computer Science",
-            "interests": "AI, Cloud, Python",
-            "skill_level": "Beginner",
+            "background": "Computer Science Student",
+            "interests": "Machine Learning, Cloud Computing",
+            "skill_level": "Intermediate",
             "category": "Courses",
-            "goal": "Build AI",
+            "goal": "Become a Machine Learning Engineer",
             "count": 25 # Out of bounds
         })
-        self.assertEqual(prof["name"], "David Miller")
+        self.assertEqual(prof["name"], "Emily Watson")
         self.assertEqual(prof["count"], 10, "Count should be clamped to maximum 10")
 
     def test_02_preference_analysis(self):
         """Test preference extraction."""
         prof = {
-            "name": "David", "age": 22, "background": "CS",
+            "name": "Emily Watson", "age": 22, "background": "Computer Science Student",
             "interests": "Deep Learning, PyTorch, Robotics",
             "skill_level": "Intermediate", "category": "Projects",
             "goal": "Build Vision Systems", "count": 3
@@ -66,7 +66,7 @@ class TestExp4RecommendationSystem(unittest.TestCase):
     def test_03_recommendation_generation(self):
         """Test recommendation generation and item parsing."""
         prof = {
-            "name": "David", "age": 22, "background": "CS",
+            "name": "Emily Watson", "age": 22, "background": "Computer Science Student",
             "interests": "Python, Machine Learning",
             "skill_level": "Beginner", "category": "Online Courses",
             "goal": "Learn ML", "count": 3
@@ -137,3 +137,4 @@ class TestExp4RecommendationSystem(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+

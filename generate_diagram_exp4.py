@@ -72,3 +72,4 @@ def generate_diagram(output_path):
 
 if __name__ == "__main__":
     generate_diagram(r"D:\OllamaLab\Exp4_RecommendationSystem\architecture_exp4.png")
+

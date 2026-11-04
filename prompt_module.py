@@ -31,3 +31,4 @@ def build_prompt(profile: dict, analysis: dict) -> str:
         f"Example:\n"
         f"CS50 Introduction to Computer Science | 95 | Provides a strong fundamental programming foundation for beginners."
     )
+

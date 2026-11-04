@@ -25,3 +25,4 @@ def rank(items: list, verbose: bool = True) -> list:
         print("-" * (width + 60))
 
     return ranked
+

@@ -32,3 +32,4 @@ def refine_with_feedback(feedback_text: str, profile: dict = None, verbose: bool
     ranked_items = ranking_module.rank(items, verbose=verbose)
     
     return ranked_items
+
